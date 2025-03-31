@@ -26,8 +26,15 @@
         <tag/>
         <url/>
     </scm>
+    <repositories>
+        <repository>
+            <id>projectlombok.org</id>
+            <url>https://projectlombok.org/edge-releases</url>
+        </repository>
+    </repositories>
     <properties>
         <java.version>17</java.version>
+        <lombok.version>edge-SNAPSHOT</lombok.version>
     </properties>
     <dependencies>
         <dependency>

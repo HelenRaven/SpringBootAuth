@@ -1,0 +1,10 @@
+services:
+  authapp:
+    build:
+        context: ./
+        dockerfile: Dockerfile
+    image: authapp
+    ports:
+      - 8888:8888
+    restart: unless-stopped
+    container_name: authapp
