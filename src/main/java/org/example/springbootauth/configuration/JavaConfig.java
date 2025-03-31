@@ -1,8 +1,6 @@
 package org.example.springbootauth.configuration;
 
 import org.example.springbootauth.controller.AuthorizationController;
-import org.example.springbootauth.model.Guest;
-import org.example.springbootauth.model.User;
 import org.example.springbootauth.repository.UserRepository;
 import org.example.springbootauth.service.AuthorizationService;
 import org.springframework.context.annotation.Bean;
